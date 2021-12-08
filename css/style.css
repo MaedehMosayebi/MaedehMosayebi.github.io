@@ -554,14 +554,26 @@
 		}
 
 			.image.captioned img {
-				border-radius: 0;
+				border-radius: 16px 16px 0px 0px;
 			}
 
-			.image.captioned h3 {
+			.image.captioned div {
+				
 				background-color: #fff;
 				box-shadow: 0px 0.0375em 0.125em 0px rgba(0, 0, 0, 0.15);
 				display: block;
-				padding: 2em 1em;
+				padding: 2em 1.75em;
+				
+				/*mychange*/
+				text-align: left;
+				border-radius: 0px 0px 16px 16px;
+				
+			}
+			.image.captioned p {
+				margin: 0 0 0 0;
+			}
+			.image.captioned h3 {
+				margin: 0 0 0 0;
 			}
 
 /* List */
@@ -876,8 +888,9 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #f32853;
-			color: #ffffff !important;
+			border-radius: 16px;
+			background-color: #21242C;
+			color: #FFC592 !important;
 		}
 
 			input[type="submit"].special:hover,
@@ -1050,11 +1063,12 @@
 			}
 
 /* Banner */
+/*("images/overlay.png"),*/
 
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../images/banner.jpg");
+		background-image: url("../images/banner.png");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -1066,7 +1080,7 @@
 		}
 
 		#banner h2 {
-			color: #ffffff;
+			color: #21242C;
 			display: inline-block;
 			font-size: 3.5em;
 			line-height: 1.35;
@@ -1074,7 +1088,7 @@
 		}
 
 		#banner p {
-			color: #aaa;
+			color: #3C3738;
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
 			text-transform: uppercase;
@@ -1097,7 +1111,7 @@
 	}
 
 		.wrapper.style2 {
-			background-color: #f6f6f6;
+			background-color: #F0F2F6;
 		}
 
 		.wrapper.style3 {

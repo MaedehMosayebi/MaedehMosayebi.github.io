@@ -21,7 +21,7 @@
 	}
 
 		.image.captioned h3 {
-			padding: 1em;
+			/*padding: 1em;*/
 		}
 
 /* Feature */
@@ -33,7 +33,7 @@
 /* Banner */
 
 	#banner {
-		padding: 6em 2em 6em 2em;
+		padding: 26em 2em 8em 2em;
 	}
 
 		#banner br {
@@ -46,6 +46,7 @@
 
 		#banner p {
 			font-size: 1.25em;
+			line-height: 2;
 		}
 
 /* Main */
