@@ -3,9 +3,7 @@
 @import "http://fonts.googleapis.com/css?family=Raleway:400,700";
 
 /*
-	Spatial by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	MSBI by MAEDEH MOSAYEBI
 */
 
 /* Basic */
@@ -1026,12 +1024,13 @@
 			}
 
 		#header.alt {
-			background-color: transparent;
+			background-color: #ffc592;
 			border: 0;
 			box-shadow: none;
-			height: 3.25em;
+			height: 0.5em;
 			line-height: 3.25em;
 			position: absolute;
+			
 		}
 
 			#header.alt h1 {
@@ -1050,7 +1049,7 @@
 			}
 
 				#header.alt nav a {
-					color: #ddd;
+					color: #21242c;
 				}
 
 					#header.alt nav a:active, #header.alt nav a:hover {
@@ -1066,18 +1065,18 @@
 /*("images/overlay.png"),*/
 
 	#banner {
-		padding: 16em 0 13em 0;
-		background-attachment: fixed;
+		padding: 30% 16em 16em 16em;
+		/*background-attachment: fixed;*/
 		background-image: url("../images/banner.png");
 		background-position: center top;
-		background-size: contain;
+		background-size: 30%;
 		line-height: 1.75;
 		text-align: center;
 		background-color: #ffc592;
 		background-repeat: no-repeat;
 		
 	}
-
+	
 		#banner :last-child {
 			margin-bottom: 0;
 		}
@@ -1088,13 +1087,14 @@
 			font-size: 3.5em;
 			line-height: 1.35;
 			margin-bottom: 0.5em;
+			margin-top: 4%;
 		}
 
 		#banner p {
 			color: #3C3738;
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
-			text-transform: uppercase;
+			text-transform: capitalize;
 		}
 
 	body.is-touch #banner {
@@ -1119,11 +1119,18 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../images/banner.jpg");
+			background-color: #21242C;
+			/*background-image: url("images/overlay.png"), url("../images/banner.jpg");*/
 			background-position: center center;
 			background-size: cover;
 		}
-
+		.wrapper.style3 a{
+			background-color: #FFC592 !important;
+			color: #21242C !important;
+		}
+		.wrapper.style3 p{
+		text-transform: capitalize;
+		}
 			.wrapper.style3 header.major {
 				margin-bottom: 3em;
 			}

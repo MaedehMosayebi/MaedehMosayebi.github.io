@@ -1,7 +1,5 @@
 /*
-	Spatial by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	MSBI by MAEDEH MOSAYEBI
 */
 
 /* Basic */
@@ -33,7 +31,8 @@
 /* Banner */
 
 	#banner {
-		padding: 26em 2em 8em 2em;
+		padding: 60% 2em 8em 2em;
+		background-size:60%
 	}
 
 		#banner br {
