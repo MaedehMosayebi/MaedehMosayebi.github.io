@@ -1113,6 +1113,10 @@
 		padding: 6em 0 4em 0;
 	}
 
+.wrapper.style1 p {
+			font-size: 1.1em;
+		}
+		
 		.wrapper.style2 {
 			background-color: #F0F2F6;
 		}
