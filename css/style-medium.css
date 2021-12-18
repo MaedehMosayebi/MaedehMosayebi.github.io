@@ -140,3 +140,7 @@
 			#navPanel nav .button {
 				width: 100%;
 			}
+			
+			#skel-layers-wrapper{
+			padding-top:0px !important;
+		}

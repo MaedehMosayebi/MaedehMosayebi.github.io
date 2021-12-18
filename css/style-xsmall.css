@@ -15,6 +15,12 @@
 	header.major h2 {
 		font-size: 1.75em;
 	}
+	h1{
+		font-size: 2.5em;
+	}
+	.parallax{
+	 padding-top:0px;
+	}
 
 /* List */
 
@@ -50,7 +56,7 @@
 				padding-top: 0;
 			}
 
-/* Button */
+/* Button 
 
 	input[type="submit"],
 	input[type="reset"],
@@ -58,7 +64,7 @@
 	.button {
 		padding: 0;
 	}
-
+*/
 /* Feature */
 
 	.feature-grid .feature .content, .feature-grid .feature .image {
@@ -98,3 +104,14 @@
 			margin: 0;
 			padding: 0;
 		}
+		
+		#skel-layers-wrapper{
+			padding-top:0px !important;
+		}
+		
+		.parallax.homepage {
+    height: 70vh;
+}
+
+
+

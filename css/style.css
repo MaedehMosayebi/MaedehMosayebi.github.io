@@ -59,7 +59,7 @@
 		color: #484848;
 		font-weight: 700;
 		line-height: 1em;
-		margin: 0 0 1em 0;
+		margin: 0 0 0.5em 0;
 		text-transform: uppercase;
 	}
 
@@ -67,19 +67,23 @@
 			color: inherit;
 			text-decoration: none;
 		}
-
-	h2 {
-		font-size: 1.75em;
+h1 {
+		font-size: 3em;
 		line-height: 1.5em;
 	}
 
+	h2 {
+		font-size: 2.5em;
+		line-height: 1.3em;
+	}
+
 	h3 {
-		font-size: 1.35em;
+		font-size: 2em;
 		line-height: 1.5em;
 	}
 
 	h4 {
-		font-size: 1.1em;
+		font-size: 1.5em;
 		line-height: 1.5em;
 	}
 
@@ -195,9 +199,6 @@
 		margin: 0 0 6em 0;
 	}
 
-		header.major h2 {
-			font-size: 3em;
-		}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
 			display: inline-block;
@@ -889,6 +890,7 @@
 			border-radius: 16px;
 			background-color: #21242C;
 			color: #FFC592 !important;
+			margin-top: 10px;
 		}
 
 			input[type="submit"].special:hover,
@@ -922,7 +924,7 @@
 /* Header */
 
 	#skel-layers-wrapper {
-		padding-top: 6em;
+		padding-top: 0;
 	}
 
 	body.landing #skel-layers-wrapper {
@@ -1037,6 +1039,7 @@
 				color: #21242c;
 				left: 2.5em;
 				top: 2em;
+				font-size:1.2em;
 			}
 
 				#header.alt h1 a {
@@ -1110,7 +1113,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		padding: 4em 0 4em 0;
 	}
 
 .wrapper.style1.intro p {
@@ -1210,3 +1213,15 @@
 					margin-left: 0;
 					padding-left: 0;
 				}
+				
+				.re-space{
+					margin-top: 8%;
+					background-color: #ffc592;
+				}
+				
+				
+				
+.parallax{
+	background-color: #ffc592;
+	padding-top:7%;
+}
