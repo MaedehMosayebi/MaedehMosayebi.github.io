@@ -850,7 +850,7 @@ h1 {
 		input[type="reset"].big,
 		input[type="button"].big,
 		.button.big {
-			font-size: 1.35em;
+			font-size: 1.2em;
 		}
 
 		input[type="submit"].alt,
