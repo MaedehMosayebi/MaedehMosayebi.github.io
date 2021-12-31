@@ -14,3 +14,8 @@ margin-left: 24px;
 #back a{
 color:  #ffc592;
 }
+
+@media (max-width:576px){
+ h6{
+font-size: 1.2em;
+}}
