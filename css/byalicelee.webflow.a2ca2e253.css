@@ -78,12 +78,26 @@
   width: 100%;
   height: 100%;
   max-width: none;
-  background-image: url("../images/p1.png");
   background-position: 50% 100%;
   background-size: 1100px;
   background-repeat: no-repeat;
 }
+.re1{
+background-image: url("../images/p1.png");
+}
 
+.re2{
+  background-image: url("../images/p2.png");
+}
+.re3{
+  background-image: url("../images/p3.png");
+}
+.re4{
+  background-image: url("../images/p4.png");
+}
+.re5{
+  background-image: url("../images/p5.png");
+}
 .layer-1.cc-5 {
   position: relative;
   z-index: 1;
@@ -108,7 +122,6 @@
 .layer-1.homepage {
   width: 100%;
   height: 100%;
-  background-image: url("../images/p1.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -129,7 +142,6 @@
   width: 100%;
   height: 100%;
   max-width: none;
-  background-image: url("../images/p2.png");
   background-position: 50% 100%;
   background-size: 1100px;
   background-repeat: no-repeat;
@@ -161,7 +173,6 @@
 .layer-2.homepage {
   width: 100%;
   height: 100%;
-  background-image: url("../images/p2.png");
   background-position: 50% 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -182,7 +193,6 @@
   width: 100%;
   height: 100%;
   max-width: none;
-  background-image: url("../images/p3.png");
   background-position: 50% 100%;
   background-size: 1100px;
   background-repeat: no-repeat;
@@ -214,7 +224,6 @@
 .layer-3.homepage {
   margin-top: 0px;
   padding-top: 0px;
-  background-image: url("../images/p3.png");
   background-position: 50% 100%;
   background-size: cover;
 }
@@ -234,7 +243,6 @@
   width: 100%;
   height: 100%;
   max-width: none;
-  background-image: url("../images/p4.png");
   background-position: 50% 100%;
   background-size: 1100px;
   background-repeat: no-repeat;
@@ -264,7 +272,6 @@
 }
 
 .layer-4.homepage {
-  background-image: url("../images/p4.png");
   background-size: cover;
 }
 
@@ -282,7 +289,6 @@
   width: 100%;
   height: 100%;
   max-width: none;
-  background-image: url("../images/p5.png");
   background-position: 50% 100%;
   background-size: 1100px;
   background-repeat: no-repeat;
@@ -311,7 +317,6 @@
 }
 
 .layer-5.homepage {
-  background-image: url("../images/p5.png");
   background-size: cover;
 }
 
@@ -330,4 +335,19 @@
   border-bottom-width: 0px;
   border-bottom-color: #000;
   cursor: ne-resize;
+}
+
+.d1{
+background-image: url("../images/d1.png");
+}
+
+.d2{
+  background-image: url("../images/d2.png");
+}
+.d3{
+  background-image: url("../images/d3.png");
+}
+
+.d5{
+  background-image: url("../images/d4.png");
 }
