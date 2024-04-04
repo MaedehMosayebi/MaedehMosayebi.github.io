@@ -3289,7 +3289,7 @@ input, select, textarea {
 		}
 
 			#wrapper > section > header:before {
-				background: #43d9b8;
+				background: #FF8A32;
 				content: '';
 				display: block;
 				margin-top: 1rem;
@@ -3302,7 +3302,7 @@ input, select, textarea {
 			}
 
 				#wrapper > section > header h1:before, #wrapper > section > header h2:before {
-					background: #43d9b8;
+					background: #FF8A32;
 					content: '';
 					display: block;
 					height: 2px;
@@ -3311,7 +3311,7 @@ input, select, textarea {
 				}
 
 				#wrapper > section > header h1:after, #wrapper > section > header h2:after {
-					background: #43d9b8;
+					background: #FF8A32;
 					border-radius: 0.5rem;
 					content: '';
 					display: block;
@@ -3368,7 +3368,7 @@ input, select, textarea {
 			}
 
 			#wrapper > section:last-of-type > header:after {
-				background: #43d9b8;
+				background: #FF8A32;
 				border-radius: 0.5rem;
 				bottom: -1.5rem;
 				content: '';
